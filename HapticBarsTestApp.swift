@@ -11,7 +11,7 @@ import SwiftUI
 struct HapticBarsTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContinuousHapticView()
         }
     }
 }

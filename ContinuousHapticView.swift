@@ -11,7 +11,7 @@ import CoreHaptics
 // Notes for testing:
 // - Use a *real iPhone* (continuous haptics often won't work in the simulator).
 // - Intensity & Sharpness are Core Haptics "event parameters" in range 0...1.
-struct ContentView: View {
+struct ContinuousHapticView: View {
 
     // Bar heights (0...1)
     private let values: [CGFloat] = [0.2, 0.65, 0.4, 0.85, 0.55]
