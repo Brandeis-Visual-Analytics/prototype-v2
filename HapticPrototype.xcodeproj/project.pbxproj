@@ -6,14 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B7D47C432F2C0DC600539C38 /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D47C422F2C0DC600539C38 /* CoreHaptics.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		B7D47C332F2C0CFE00539C38 /* HapticBarsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticBarsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D47C332F2C0CFE00539C38 /* HapticPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D47C422F2C0DC600539C38 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = System/Library/Frameworks/CoreHaptics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B7D47C352F2C0CFE00539C38 /* HapticBarsTest */ = {
+		B7D47C352F2C0CFE00539C38 /* HapticPrototype */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HapticBarsTest;
+			path = HapticPrototype;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D47C432F2C0DC600539C38 /* CoreHaptics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +38,8 @@
 		B7D47C2A2F2C0CFE00539C38 = {
 			isa = PBXGroup;
 			children = (
-				B7D47C352F2C0CFE00539C38 /* HapticBarsTest */,
+				B7D47C352F2C0CFE00539C38 /* HapticPrototype */,
+				B7D47C412F2C0DC600539C38 /* Frameworks */,
 				B7D47C342F2C0CFE00539C38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,17 +47,25 @@
 		B7D47C342F2C0CFE00539C38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7D47C332F2C0CFE00539C38 /* HapticBarsTest.app */,
+				B7D47C332F2C0CFE00539C38 /* HapticPrototype.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B7D47C412F2C0DC600539C38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7D47C422F2C0DC600539C38 /* CoreHaptics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B7D47C322F2C0CFE00539C38 /* HapticBarsTest */ = {
+		B7D47C322F2C0CFE00539C38 /* HapticPrototype */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7D47C3E2F2C0CFF00539C38 /* Build configuration list for PBXNativeTarget "HapticBarsTest" */;
+			buildConfigurationList = B7D47C3E2F2C0CFF00539C38 /* Build configuration list for PBXNativeTarget "HapticPrototype" */;
 			buildPhases = (
 				B7D47C2F2F2C0CFE00539C38 /* Sources */,
 				B7D47C302F2C0CFE00539C38 /* Frameworks */,
@@ -61,13 +76,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B7D47C352F2C0CFE00539C38 /* HapticBarsTest */,
+				B7D47C352F2C0CFE00539C38 /* HapticPrototype */,
 			);
-			name = HapticBarsTest;
+			name = HapticPrototype;
 			packageProductDependencies = (
 			);
 			productName = HapticBarsTest;
-			productReference = B7D47C332F2C0CFE00539C38 /* HapticBarsTest.app */;
+			productReference = B7D47C332F2C0CFE00539C38 /* HapticPrototype.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B7D47C2E2F2C0CFE00539C38 /* Build configuration list for PBXProject "HapticBarsTest" */;
+			buildConfigurationList = B7D47C2E2F2C0CFE00539C38 /* Build configuration list for PBXProject "HapticPrototype" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7D47C322F2C0CFE00539C38 /* HapticBarsTest */,
+				B7D47C322F2C0CFE00539C38 /* HapticPrototype */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7D47C2E2F2C0CFE00539C38 /* Build configuration list for PBXProject "HapticBarsTest" */ = {
+		B7D47C2E2F2C0CFE00539C38 /* Build configuration list for PBXProject "HapticPrototype" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7D47C3C2F2C0CFF00539C38 /* Debug */,
@@ -322,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7D47C3E2F2C0CFF00539C38 /* Build configuration list for PBXNativeTarget "HapticBarsTest" */ = {
+		B7D47C3E2F2C0CFF00539C38 /* Build configuration list for PBXNativeTarget "HapticPrototype" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7D47C3F2F2C0CFF00539C38 /* Debug */,
